@@ -5,6 +5,7 @@ semua sintaksis dasar bahasa pemrograman terdiri dari 3 langkah ini :
 3. Perulangan : mengulang langkah yang sama berkali-kali sapai kondisi terpenuhi
 """
 
+
 # Sekuensial
 print('ibu bilang: "pergi ke toko, belikan telor"')  # print itu perintah menulis teks
 print('Budi menjawab: "baik bu, apa yang harus saya beli?"')
