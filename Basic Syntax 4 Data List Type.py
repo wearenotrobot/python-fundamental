@@ -49,3 +49,20 @@ buku = daftar_buku.pop(1)
 for i in range(0, len(daftar_buku)):
     print(daftar_buku[i])
 
+print('\nPerintah del')
+daftar_buku = ['kitabushollah', 'kitabushollati wannawafil', 'kitabulahkam', 'kitabuladab', 'kitabusshoum']
+del daftar_buku[0]
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+print('\nPerintah del dengan list comprehension start')
+daftar_buku = ['kitabushollah', 'kitabushollati wannawafil', 'kitabulahkam', 'kitabuladab', 'kitabusshoum']
+del daftar_buku[0:-2] #start:end
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
+
+print('\nPerintah list comprehension yang kedua')
+daftar_buku = ['kitabushollah', 'kitabushollati wannawafil', 'kitabulahkam', 'kitabuladab', 'kitabusshoum']
+del daftar_buku[0::3] #start:end:step
+for i in range(0, len(daftar_buku)):
+    print(daftar_buku[i])
