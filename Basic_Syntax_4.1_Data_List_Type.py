@@ -55,14 +55,8 @@ del daftar_buku[0]
 for i in range(0, len(daftar_buku)):
     print(daftar_buku[i])
 
-print('\nPerintah del dengan list comprehension start')
+print('\nPerintah delete dgn list comprehension yang kedua')
 daftar_buku = ['kitabushollah', 'kitabushollati wannawafil', 'kitabulahkam', 'kitabuladab', 'kitabusshoum']
-del daftar_buku[0:-2] #start:end
+del daftar_buku[0:-2] # start:end, mulai dari belakang, maka yg dihapus adalah yg dari awal sampai minus tsb.
 for i in range(0, len(daftar_buku)):
-    print(daftar_buku[i])
-
-print('\nPerintah list comprehension yang kedua')
-daftar_buku = ['kitabushollah', 'kitabushollati wannawafil', 'kitabulahkam', 'kitabuladab', 'kitabusshoum']
-del daftar_buku[0::3] #start:end:step
-for i in range(0, len(daftar_buku)):
-    print(daftar_buku[i])
+    print(daftar_buku[i]) # maka yg di delete adalah 'kitabushollah', 'kitabushollati wannawafil, 'kitabulahkam'
